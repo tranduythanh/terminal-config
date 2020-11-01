@@ -297,3 +297,9 @@ nltk_data
 .gitconfig
 .gitlab-runner
 .oh-my-zsh/cache
+.bash_logout
+.fzf
+.fzf.bash
+.sudo_as_admin_successful
+examples.desktop
+.zcompdump-cotaiws-5.4.2
