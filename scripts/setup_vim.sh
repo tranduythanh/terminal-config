@@ -1,3 +1,3 @@
-vim +GoInstallBinaries
 vim +PlugInstall
+vim +GoInstallBinaries
 
