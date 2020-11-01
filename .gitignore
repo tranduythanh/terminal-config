@@ -133,7 +133,6 @@ tmp/**/*
 .nylas
 .octave_hist
 .octave_packages
-.oh-my-zsh
 .openocd_history
 .oracle_jre_usage
 .p2
@@ -297,3 +296,4 @@ nltk_data
 .gitmessage
 .gitconfig
 .gitlab-runner
+.oh-my-zsh/cache

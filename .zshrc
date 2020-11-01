@@ -31,9 +31,6 @@ DEFAULT_USER="TranDuyThanh"
 source $ZSH/oh-my-zsh.sh
 source $HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
-# rust lang
-source $HOME/.cargo/env
-
 if [[ -f /etc/os-release ]]; then
     source ./.zshrc.linux
 else
