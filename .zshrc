@@ -48,5 +48,10 @@ alias mygit='cd ~/BoxSync/golang/src/github.com/TranDuyThanh'
 
 alias gpl="git pull"
 alias gck="git checkout"
+alias gc="git commit"
+alias gp="git push"
+alias ga="git add"
+alias gst="git status"
+alias gm="git merge"
 alias vimgo='vim -u ~/.vimrc.go'
 alias internetspeed="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
