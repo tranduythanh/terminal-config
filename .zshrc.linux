@@ -1,3 +1,4 @@
 #
 # Executes commands at the start of an interactive session.
 #
+export PATH=$PATH:/usr/local/go/bin

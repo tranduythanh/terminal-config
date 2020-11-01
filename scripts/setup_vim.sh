@@ -1,0 +1,3 @@
+vim +GoInstallBinaries
+vim +PlugInstall
+

@@ -202,7 +202,6 @@ tmp/**/*
 .viminfo
 .viminfo.go
 .vimperator
-.vimrc
 .vimrc.bk
 .vimrc.bundles
 .vimrc.go
