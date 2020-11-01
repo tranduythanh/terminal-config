@@ -37,9 +37,6 @@ function md2word () {
     pandoc -o $2 -f markdown -t docx $1
 }
 
-# rust lang
-source $HOME/.cargo/env
-
 alias tailf="tail -f"
 alias timeout='gtimeout'
 alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"

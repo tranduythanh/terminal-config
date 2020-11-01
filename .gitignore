@@ -294,3 +294,4 @@ nltk_data
 .fzf.bash
 .sudo_as_admin_successful
 examples.desktop
+.fzf.zsh

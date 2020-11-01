@@ -32,9 +32,9 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
 if [[ -f /etc/os-release ]]; then
-    source ./.zshrc.linux
+    source ~/.zshrc.linux
 else
-    source ./.zshrc.macos
+    source ~/.zshrc.macos
 fi
 
 alias o2o='cd ~/BoxSync/golang/src/github.com/offline2online'
@@ -52,3 +52,5 @@ alias gst="git status"
 alias gm="git merge"
 alias vimgo='vim -u ~/.vimrc.go'
 alias internetspeed="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
