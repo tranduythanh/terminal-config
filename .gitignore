@@ -224,15 +224,8 @@ tmp/**/*
 .yjp
 .zcompcache
 .zcompdump
-.zcompdump-Thanhs-MacBook-Pro-2-5.0.7.Thanhs-MacBook-Pro-2.local.97226
-.zcompdump-Thanhs-MacBook-Pro-2-5.0.7.Thanhs-MacBook-Pro-2.local.97423
-.zcompdump-Thanh’s MacBook Pro-5.0.5
-.zcompdump-Thanh’s MacBook Pro-5.0.7
-.zcompdump-Thanh’s MacBook Pro-5.3
-.zcompdump-Thanh’s MacBook Pro-5.4.2
-.zcompdump-Thanh’s MacBook Pro-5.7.1
-.zcompdump.Thanhs-MacBook-Pro-2.local.14405
-.zcompdump.zwc
+.zcompdump.*
+.zcompdump-*
 .zhistory
 .zlogin
 .zlogout
@@ -302,4 +295,3 @@ nltk_data
 .fzf.bash
 .sudo_as_admin_successful
 examples.desktop
-.zcompdump-cotaiws-5.4.2
