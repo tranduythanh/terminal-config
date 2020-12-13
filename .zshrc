@@ -37,6 +37,9 @@ else
     source ~/.zshrc.macos
 fi
 
+alias kk='kubectl --insecure-skip-tls-verify'
+alias k='kubectl'
+
 alias o2o='cd ~/BoxSync/golang/src/github.com/offline2online'
 alias cotai='cd ~/BoxSync/golang/src/gitlab.com/vncotai'
 alias doraemon='cd ~/BoxSync/golang/src/gitlab.com/tranduythanh/doraemon'
