@@ -55,6 +55,7 @@ alias gst="git status"
 alias gm="git merge"
 alias vimgo='vim -u ~/.vimrc.go'
 alias internetspeed="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+alias gitlogv="git-forest --all --style=10 | less -RSX"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

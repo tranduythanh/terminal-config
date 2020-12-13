@@ -26,6 +26,7 @@ Plug 'crusoexia/vim-monokai'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'unkiwii/vim-nerdtree-sync'
+Plug 'severin-lemaignan/vim-minimap'
 
 " Plugin options
 Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
@@ -108,6 +109,7 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 syntax on
 colorscheme monokai
 set tabstop=4
+set number
 
 let g:monokai_term_italic = 1
 let g:monokai_gui_italic = 1
@@ -115,6 +117,19 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:indentLine_enabled = 1
 let g:nerdtree_sync_cursorline = 1
 let g:NERDTreeHighlightCursorline = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_array_whitespace_error = 1
+let g:go_highlight_chan_whitespace_error = 1
+let g:go_highlight_space_tab_error = 1
+let g:go_highlight_trailing_whitespace_error = 1
+let g:go_textobj_enabled = 1
+let g:go_auto_type_info = 1
+let g:go_fmt_command = "goimports"
 
 map <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
