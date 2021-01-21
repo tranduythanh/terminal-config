@@ -53,6 +53,7 @@ alias gp="git push"
 alias ga="git add"
 alias gst="git status"
 alias gm="git merge"
+alias gg='git log --oneline --abbrev-commit --all --graph --decorate --color'
 alias vimgo='vim -u ~/.vimrc.go'
 alias internetspeed="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 alias gitlogv="git-forest --all --style=10 | less -RSX"
